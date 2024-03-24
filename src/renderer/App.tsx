@@ -65,6 +65,7 @@ function MainProgram() {
             Employees Info
           </button>
         </div>
+
         {selectedButton && (
           <table>
             <thead>
@@ -79,6 +80,7 @@ function MainProgram() {
             </tbody>
           </table>
         )}
+        
       </div>
     </>
   );
